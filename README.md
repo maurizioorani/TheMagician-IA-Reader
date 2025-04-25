@@ -59,7 +59,6 @@ source venv/bin/activate
 # On Windows:
 python -m venv venv
 venv\Scripts\activate
-Install Dependencies
 ```
 
 # Frontend (Streamlit):
