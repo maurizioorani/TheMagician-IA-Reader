@@ -63,6 +63,3 @@ llm = ChatOllama(
     temperature = 0.8,
 )
 print(f"\nModello LLM '{llm.model}' configurato.")
-
-
-print("\nCatena 'analizzatore' definita.")
