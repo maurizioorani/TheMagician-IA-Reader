@@ -59,18 +59,12 @@ Install Dependencies
 
 The repository is structured into two main directories:
 
-Frontend (Streamlit):
+# Frontend (Streamlit):
+First, install all the dependencies
+```bash
+pip install -r requirements.txt
+```
 
-```bash
-cd frontend
-pip install -r requirements.txt
-Backend (Langchain):
-```
-```bash
-cd ../backend
-pip install -r requirements.txt
-Configure Environment Variables
-```
 Run the Application
 
 ```bash
