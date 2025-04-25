@@ -57,8 +57,6 @@ venv\Scripts\activate
 Install Dependencies
 ```
 
-The repository is structured into two main directories:
-
 # Frontend (Streamlit):
 First, install all the dependencies
 ```bash
