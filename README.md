@@ -77,13 +77,12 @@ The Streamlit interface will typically be available at http://localhost:8501.
 ## 📖 How to Use
 Access the App: Open your browser and navigate to the URL provided by Streamlit (commonly http://localhost:8501).
 
-Input Your Text Data: Use the intuitive interface to paste, type, or upload the text you want to analyze.
+Input Your Text Data: Use the intuitive interface to paste, type, or upload the questions you need to be answered.
 
-Configure Analysis Settings: Select from various options such as sentiment analysis, keyword extraction, or custom text interpretations. The interaction between the Streamlit frontend and the Langchain-powered backend dynamically processes your input.
+Choose if you need 3, 5 or 7 cards for the reading.
 
-Review the Insights: View detailed analytics and visualizations that reveal themes, sentiments, and other hidden patterns in your text.
+Read the Insights: View detailed analytics and visualizations that reveal the meaning of the extracted cards.
 
-Iterate and Customize: Experiment with different configurations to refine your analysis as per your project’s needs.
 
 ## 🤝 Contributing
 Contributions are welcome! If you have improvements or new features to add, please:
