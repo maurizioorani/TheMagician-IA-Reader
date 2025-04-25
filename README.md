@@ -48,7 +48,7 @@ Step into the world where AI meets intuition with The Magician IA Reader!
    cd TheMagician-IA-Reader
    ```
 
-Set Up a Virtual Environment (Recommended)
+2. **Set Up a Virtual Environment (Recommended)**
 
 ```bash
 # On Unix/macOS:
