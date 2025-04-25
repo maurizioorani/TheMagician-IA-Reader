@@ -6,6 +6,7 @@ Welcome to **The Magician IA Reader**! This project presents a unique applicatio
 
 This application functions as an AI-driven tarot reader. It takes natural language input (primarily Italian) and, using an AI model guided by traditional tarot card meanings, provides interpretative insights.
 
+
 **Key Features:**
 
 * **Italian Natural Language Support:** Understands and interacts in fluent Italian.
@@ -24,6 +25,10 @@ The core of The Magician IA Reader lies in its use of the 'phi4' local AI model.
 * **Curious Minds:** Experience an innovative way to interact with AI for personal insights.
 
 Step into the world where AI meets intuition with The Magician IA Reader!
+
+![screen1](https://github.com/user-attachments/assets/d7a95c15-e277-4d4c-a763-5de9aaed80e1)
+
+![screen2](https://github.com/user-attachments/assets/facc7632-ae96-46db-996b-083195a7d246)
 
 ---
 
