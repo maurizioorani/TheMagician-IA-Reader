@@ -63,13 +63,12 @@ except Exception as e:
 prompt_analisi = PromptTemplate.from_template("""
 Analyze the following tarot cards, based on the meanings provided (also considering if they are reversed):
 {card_details}
-When speaking about the person who drew the cards, use "the querent". Always use "you" to refer to the querent.
-Provide a detailed analysis of the meaning of each card (upright or reversed).
-Then, offer a general interpretation of the cards as a whole, linking it to the context: {contesto}.
-Furthermore, try to be mystical and provide information on the interpretation related to the symbolism of the cards, based on the specific column: {simbolismo}.
-At the end of the reading, always offer advice to improve or address the situation. Also, base it on your knowledge of psychology.
-Always be professional and empathetic in providing your responses.
-Please translate the final output into Italian, only if someone is writing in Italian.
+Pay attenrtion to these  aspects:
+- Provide a detailed analysis of the meaning of each card (upright or reversed).
+- Then offer a general interpretation of the answer based on the cards, linking it to the context: {contesto}.
+- Be mystical and provide information on the interpretation related to the symbolism of the cards, based on the specific column: {simbolismo}.
+- At the end of the reading, always offer advice to improve or address the situation. Also, base it on your knowledge of psychology.
+IMPORTANT:  if someone is writing in Italian, translate the final output into Italian language.
 """)
 print("\nPrompt Template 'prompt_analisi' definito.")
 
