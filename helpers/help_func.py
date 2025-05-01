@@ -54,7 +54,16 @@ def prepare_prompt_input(input_dict, meanings_dict):
     cards_list = input_dict['carte']
     contesto = input_dict['contesto']
     formatted_details = format_card_details_for_prompt(cards_list, meanings_dict)
-    return {"card_details": formatted_details, "contesto": contesto}
+    # Estrai e concatena il simbolismo di ogni carta
+    simbolismi = []
+    for card_info in cards_list:
+        card_name = card_info['nome']
+        if card_name in meanings_dict:
+            simbolismo = meanings_dict[card_name].get('simbolismo', '')
+            if simbolismo:
+                simbolismi.append(f"{card_name}: {simbolismo}")
+    simbolismo_str = "\n".join(simbolismi)
+    return {"card_details": formatted_details, "contesto": contesto, "simbolismo": simbolismo_str}
 
 # --- Configura il modello LLM ---
 llm = ChatOllama(
@@ -63,3 +72,6 @@ llm = ChatOllama(
     temperature = 0.8,
 )
 print(f"\nModello LLM '{llm.model}' configurato.")
+
+
+print("\nCatena 'analizzatore' definita.")
