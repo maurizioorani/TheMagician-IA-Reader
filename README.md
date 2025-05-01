@@ -11,7 +11,7 @@ This application functions as an AI-driven tarot reader. It takes natural langua
 
 * **Italian Natural Language Support:** Understands and interacts in fluent Italian.
 * **Local AI Model ('phi4'):** Runs on the efficient 'phi4' model, ideal for local processing and privacy.
-* **CSV-driven Knowledge Base:** Utilizes structured CSV files to store and reference detailed tarot card meanings.
+* **CSV-driven Knowledge Base:** Utilizes structured CSV files to store and reference detailed tarot card meanings and symbolism.
 * **Deep Insights:** Transforms raw text queries into meaningful, context-aware interpretations based on tarot symbolism.
 
 **How it Works:**
@@ -38,7 +38,13 @@ Step into the world where AI meets intuition with The Magician IA Reader!
 
 - **Python 3.8 or higher**
 - **pip** – Python package installer
-
+- **Ollama** – running locally:
+  Install from: https://ollama.com/
+  ```bash
+  ollama pull phi4
+  ollama serve
+  ```
+  
 ### Steps
 
 1. **Clone the Repository**
