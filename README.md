@@ -26,9 +26,9 @@ The core of The Magician IA Reader lies in its use of the 'phi4' local AI model.
 
 Step into the world where AI meets intuition with The Magician IA Reader!
 
-![screen1](https://github.com/user-attachments/assets/d7a95c15-e277-4d4c-a763-5de9aaed80e1)
+![tarot_1](data/readme/tarot_1.jpg)
 
-![screen2](https://github.com/user-attachments/assets/facc7632-ae96-46db-996b-083195a7d246)
+![tarot_2](data/readme/tarot_2.jpg)
 
 ---
 
