@@ -26,7 +26,11 @@ The core of The Magician IA Reader lies in its use of the 'phi4' local AI model.
 
 Step into the world where AI meets intuition with The Magician IA Reader!
 
-<video src="https://github.com/maurizioorani/TheMagician-IA-Reader/blob/main/data/readme/TheMagicianAI.mov"/>
+
+
+
+https://github.com/user-attachments/assets/8d6fbcb0-11ba-4a70-ac0a-e36e480e9a4f
+
 
 ---
 
